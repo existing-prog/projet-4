@@ -1,6 +1,17 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+html,
 body {
 	margin: 0;
+	width: 100%;
+	max-width: none;
 }
+
 * {
 	font-family: 'Inter';
 	font-style: normal;
